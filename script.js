@@ -16,8 +16,8 @@ let num=4;
 let max=num+1;
 function openbook(){
     book.style.transform="translateX(50%)";
-    prevbtn.style.transform="translate(-180px)";
-    nextbtn.style.transform="translateX(180px)";
+    prevbtn.style.transform="translate(-300px)";
+    nextbtn.style.transform="translateX(300px)";
 
 
 }
@@ -46,6 +46,7 @@ function goprevpage(){
                 paper3.classList.remove("flipped");
                 paper3.style.zIndex=2;
             case 5:
+                openbook();
                 paper4.classList.remove("flipped");
                 paper4.style.zIndex=1;
                 break;
